@@ -1,6 +1,4 @@
 # Magazyn-Aplikacja
-Projekt aplikacji dla magazynu z widokiem utworzonym w WPF i WebAPI zarządzającym bazą danych SqlServer przy pomocy Entity Framework Core
-
 Projekt aplikacji dla magazynu, gdzie widok stworzony został poprzez WPF. Zaimplementowane zostało
 poł ˛aczenie z WebAPI, utworzonym z pomoc ˛a EntityFramework i wykorzystaniem lokalnej bazy danych SQL
 Server. API zarz ˛adza baz ˛a danych poprzez utworzone kontrollery, serwisy, requesty, DTO. Utworzyłem
