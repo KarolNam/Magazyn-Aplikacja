@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4252BA8-FAA8-4E5D-8A84-5699AF7E6C67}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Przyjecia_Magazynowe</RootNamespace>
+    <AssemblyName>Przyjecia_Magazynowe</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Commands\CommandBase.cs" />
+    <Compile Include="Commands\NavigateContractorReceiptDocumentsCommand.cs" />
+    <Compile Include="Commands\NavigateCreateContractorCommand.cs" />
+    <Compile Include="Commands\NavigateContractorsCommand.cs" />
+    <Compile Include="Commands\NavigateCreateReceiptDocumentCommand.cs" />
+    <Compile Include="Commands\NavigateCreateReceiptItemCommand.cs" />
+    <Compile Include="Commands\NavigateHomeCommand.cs" />
+    <Compile Include="Commands\NavigateReceiptDocumentCommand.cs" />
+    <Compile Include="Commands\NavigateReceiptDocumentsCommand.cs" />
+    <Compile Include="Commands\NavigateUpdateContractorCommand.cs" />
+    <Compile Include="Commands\RelayCommand.cs" />
+    <Compile Include="Models\ContractorModel.cs" />
+    <Compile Include="Models\ContractorReceiptDocumentsModel.cs" />
+    <Compile Include="Models\ReceiptDocumentModel.cs" />
+    <Compile Include="Models\ReceiptItemModel.cs" />
+    <Compile Include="Stores\NavigationStore.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\ContractorReceiptDocumentsViewModel.cs" />
+    <Compile Include="ViewModels\ContractorsViewModel.cs" />
+    <Compile Include="ViewModels\CreateContractorViewModel.cs" />
+    <Compile Include="ViewModels\CreateReceiptDocumentViewModel.cs" />
+    <Compile Include="ViewModels\CreateReceiptItemViewModel.cs" />
+    <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\ReceiptDocumentsViewModel.cs" />
+    <Compile Include="ViewModels\ReceiptDocumentViewModel.cs" />
+    <Compile Include="ViewModels\ReceiptItemViewModel.cs" />
+    <Compile Include="ViewModels\UpdateContractorViewModel.cs" />
+    <Compile Include="ViewModels\UpdateReceiptDocumentViewModel.cs" />
+    <Compile Include="ViewModels\UpdateReceiptItemViewModel.cs" />
+    <Compile Include="Views\ContractorReceiptDocumentsView.xaml.cs">
+      <DependentUpon>ContractorReceiptDocumentsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContractorsView.xaml.cs">
+      <DependentUpon>ContractorsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CreateContractorView.xaml.cs">
+      <DependentUpon>CreateContractorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CreateReceiptDocumentView.xaml.cs">
+      <DependentUpon>CreateReceiptDocumentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CreateReceiptItemView.xaml.cs">
+      <DependentUpon>CreateReceiptItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HomeView.xaml.cs">
+      <DependentUpon>HomeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReceiptDocumentsView.xaml.cs">
+      <DependentUpon>ReceiptDocumentsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReceiptDocumentView.xaml.cs">
+      <DependentUpon>ReceiptDocumentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReceiptItemView.xaml.cs">
+      <DependentUpon>ReceiptItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdateContractorView.xaml.cs">
+      <DependentUpon>UpdateContractorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdateReceiptDocumentView.xaml.cs">
+      <DependentUpon>UpdateReceiptDocumentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdateReceiptItemView.xaml.cs">
+      <DependentUpon>UpdateReceiptItemView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Styles\Styles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContractorReceiptDocumentsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ContractorsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CreateContractorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CreateReceiptDocumentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CreateReceiptItemView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HomeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ReceiptDocumentsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ReceiptDocumentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ReceiptItemView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UpdateContractorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UpdateReceiptDocumentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UpdateReceiptItemView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

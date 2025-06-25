@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|d:\\na rekrutacje do intelo\\zadanie\\warehouseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|d:\\na rekrutacje do intelo\\zadanie\\warehouseapi\\controllers\\receiptitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|solutionrelative:controllers\\receiptitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|d:\\na rekrutacje do intelo\\zadanie\\warehouseapi\\services\\receiptitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|solutionrelative:services\\receiptitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|d:\\na rekrutacje do intelo\\zadanie\\warehouseapi\\services\\receiptdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|solutionrelative:services\\receiptdocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|d:\\na rekrutacje do intelo\\zadanie\\warehouseapi\\controllers\\receiptdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|solutionrelative:controllers\\receiptdocumentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|d:\\na rekrutacje do intelo\\zadanie\\warehouseapi\\services\\contractorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A47E51E-FE09-4EB4-8540-55FBAE57C309}|WarehouseAPI.csproj|solutionrelative:services\\contractorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:54:58.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReceiptItemsController.cs",
+              "DocumentMoniker": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Controllers\\ReceiptItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReceiptItemsController.cs",
+              "ToolTip": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Controllers\\ReceiptItemsController.cs",
+              "RelativeToolTip": "Controllers\\ReceiptItemsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:53:59.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReceiptItemService.cs",
+              "DocumentMoniker": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Services\\ReceiptItemService.cs",
+              "RelativeDocumentMoniker": "Services\\ReceiptItemService.cs",
+              "ToolTip": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Services\\ReceiptItemService.cs",
+              "RelativeToolTip": "Services\\ReceiptItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:53:30.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReceiptDocumentService.cs",
+              "DocumentMoniker": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Services\\ReceiptDocumentService.cs",
+              "RelativeDocumentMoniker": "Services\\ReceiptDocumentService.cs",
+              "ToolTip": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Services\\ReceiptDocumentService.cs",
+              "RelativeToolTip": "Services\\ReceiptDocumentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:52:45.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReceiptDocumentsController.cs",
+              "DocumentMoniker": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Controllers\\ReceiptDocumentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReceiptDocumentsController.cs",
+              "ToolTip": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Controllers\\ReceiptDocumentsController.cs",
+              "RelativeToolTip": "Controllers\\ReceiptDocumentsController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:50:36.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContractorService.cs",
+              "DocumentMoniker": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Services\\ContractorService.cs",
+              "RelativeDocumentMoniker": "Services\\ContractorService.cs",
+              "ToolTip": "D:\\Na rekrutacje do Intelo\\Zadanie\\WarehouseAPI\\Services\\ContractorService.cs",
+              "RelativeToolTip": "Services\\ContractorService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwEUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:46:08.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
